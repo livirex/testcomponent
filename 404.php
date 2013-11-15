@@ -18,5 +18,5 @@ $APPLICATION->IncludeComponent("bitrix:main.map", ".default", array(
 	),
 	false
 );
-
+echo "test";
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
