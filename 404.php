@@ -6,7 +6,7 @@ CHTTP::SetStatus("404 Not Found");
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Страница не найдена");
+$APPLICATION->SetTitle("Bug title");
 
 $APPLICATION->IncludeComponent("bitrix:main.map", ".default", array(
 	"CACHE_TYPE" => "A",
