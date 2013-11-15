@@ -6,7 +6,12 @@ CHTTP::SetStatus("404 Not Found");
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Страница не найдена");
+$APPLICATION-> FuckinComponent("vasya:main.main", "mail", array (
+	"o)"=>"o0",
+	":)" => ":]"
+	),
+	false
+);
 
 $APPLICATION->IncludeComponent("bitrix:main.map", ".default", array(
 	"CACHE_TYPE" => "A",
